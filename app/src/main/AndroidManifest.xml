@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloKotlin427">
+        <activity android:name=".VariableKotlinActivity"
+            android:label="VariableKotlin"></activity>
+        <activity android:name=".VariableJavaActivity"
+            android:label="VariableJava"/>
         <activity
             android:name=".BmiKotlinActivity"
-            android:label="BmiKotlinActivity"></activity>
+            android:label="BmiKotlinActivity" />
         <activity
             android:name=".BmiJavaActivity"
             android:label="BmiJavaActivity" />
